@@ -3,6 +3,8 @@ HUE: https://pcdgwkafkap02.datalake.local:8889/hue/editor/?type=hive
 
 CDSW:  http://cdsw.datalake.local/login
 
+user/s22934
+
 > factorizeColumnsFromDict
 function(dt,
                                      dictFile = config.path %+% "factorsDict_" %+% Sys.info()["user"] %+% ".csv"
